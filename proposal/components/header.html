@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViA International - AI-based Tender Management Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e4a7b',
+                        secondary: '#3498db',
+                        accent: '#e67e22',
+                        light: '#f8fafc',
+                        dark: '#1e293b'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .page-section {
+            min-height: 100vh;
+            scroll-margin-top: 5rem;
+        }
+        .wireframe-box {
+            border: 2px dashed #cbd5e1;
+            background-color: #f8fafc;
+        }
+        @media print {
+            .page-section {
+                page-break-after: always;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header and Navigation -->
+    <header class="bg-primary text-white fixed w-full z-50 shadow-md">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="font-bold text-xl">ViA International</div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#intro" class="hover:text-accent transition">Introduction</a>
+                    <a href="#page1" class="hover:text-accent transition">Monitoring</a>
+                    <a href="#page2" class="hover:text-accent transition">Analysis</a>
+                    <a href="#page3" class="hover:text-accent transition">Approval</a>
+                    <a href="#page4" class="hover:text-accent transition">Workflow</a>
+                    <a href="#page5" class="hover:text-accent transition">Documents</a>
+                    <a href="#page6" class="hover:text-accent transition">CV Generation</a>
+                    <a href="#page7" class="hover:text-accent transition">Delivery</a>
+                </nav>
+                <button class="md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="h-16"></div> <!-- Spacer for fixed header -->
+</body>
+</html> 
