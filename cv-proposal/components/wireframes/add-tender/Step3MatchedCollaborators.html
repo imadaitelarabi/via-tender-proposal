@@ -1,0 +1,381 @@
+<!-- Add Tender - Step 3: Matched Collaborators -->
+<div class="p-8 bg-gradient-to-br from-slate-50 to-slate-100">
+  <div class="backdrop-blur-xl bg-white/30 rounded-3xl shadow-2xl overflow-hidden border border-white/20">
+    <div class="min-h-screen flex flex-col">
+      <!-- Top Navbar -->
+      <nav class="flex items-center justify-between px-8 py-6 bg-white/40 backdrop-blur-md border-b border-white/20">
+        <div class="flex items-center">
+          <span class="font-bold text-2xl bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">ViA International</span>
+        </div>
+        <div class="flex items-center space-x-6">
+          <div class="relative">
+            <button class="p-2 rounded-xl hover:bg-white/30 transition-all">
+              <span class="material-icons text-gray-600">search</span>
+            </button>
+          </div>
+          <div class="relative">
+            <button class="p-2 rounded-xl hover:bg-white/30 transition-all">
+              <span class="material-icons text-gray-600">notifications</span>
+              <span class="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full ring-2 ring-white"></span>
+            </button>
+          </div>
+          <div class="flex items-center space-x-3 bg-white/30 rounded-xl p-2 backdrop-blur-sm">
+            <span class="text-gray-700 font-medium">Alex Morgan</span>
+            <span class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-blue-600 text-white flex items-center justify-center font-medium">AM</span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="flex flex-1">
+        <!-- Sidebar -->
+        <aside class="w-72 backdrop-blur-md bg-white/30 border-r border-white/20 flex flex-col justify-between">
+          <div>
+            <ul class="mt-8 space-y-2 px-4">
+              <li>
+                <a href="#" class="flex items-center px-6 py-3 text-gray-600 hover:bg-white/30 rounded-xl font-medium group transition-all hover:scale-[1.02]">
+                  <span class="material-icons mr-3">dashboard</span>
+                  <span>Dashboard</span>
+                  <span class="ml-auto material-icons text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex items-center px-6 py-3 text-gray-600 hover:bg-white/30 rounded-xl font-medium group transition-all hover:scale-[1.02]">
+                  <span class="material-icons mr-3">group</span>
+                  <span>Collaborators</span>
+                  <span class="ml-auto material-icons text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex items-center px-6 py-3 text-gray-700 bg-white/50 rounded-xl font-medium group transition-all hover:scale-[1.02]">
+                  <span class="material-icons mr-3 text-primary">assignment</span>
+                  <span>Tenders</span>
+                  <span class="ml-auto material-icons text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="flex items-center px-6 py-3 text-gray-600 hover:bg-white/30 rounded-xl font-medium group transition-all hover:scale-[1.02]">
+                  <span class="material-icons mr-3">settings</span>
+                  <span>Settings</span>
+                  <span class="ml-auto material-icons text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity">arrow_forward</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="p-6 text-sm text-gray-500 border-t border-white/20 backdrop-blur-sm bg-white/20">
+            <div class="flex items-center justify-between">
+              <span>v2.0</span>
+              <a href="#" class="text-primary hover:underline">Support</a>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="flex-1 p-8 bg-gradient-to-br from-slate-50 to-slate-100 relative">
+          <!-- Step Header -->
+          <div class="max-w-4xl mx-auto text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">Add New Tender</h2>
+            <p class="text-lg text-gray-600 leading-relaxed">
+              Step 3 of 4: Matched Collaborators
+            </p>
+            <div class="mt-6 flex items-center justify-center space-x-4">
+              <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-medium">✓</div>
+              <div class="w-16 h-1 bg-primary"></div>
+              <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-medium">✓</div>
+              <div class="w-16 h-1 bg-primary"></div>
+              <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center font-medium">3</div>
+              <div class="w-16 h-1 bg-gray-200"></div>
+              <div class="w-8 h-8 rounded-full bg-gray-200 text-gray-400 flex items-center justify-center font-medium">4</div>
+            </div>
+          </div>
+
+          <!-- Matched Collaborators Section -->
+          <div class="max-w-5xl mx-auto">
+            <div class="bg-white/60 backdrop-blur-md rounded-2xl shadow-lg p-8 border border-white/20">
+              <!-- Search and Filter -->
+              <div class="flex items-center justify-between mb-8">
+                <div class="relative flex-1 max-w-md">
+                  <span class="material-icons absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">search</span>
+                  <input type="text" placeholder="Search collaborators..." class="w-full pl-12 pr-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:border-primary transition-colors bg-white/50" />
+                </div>
+                <div class="flex items-center space-x-4">
+                  <button class="flex items-center space-x-2 px-4 py-3 rounded-xl border border-gray-200 hover:bg-gray-50 transition-colors">
+                    <span class="material-icons text-gray-600">filter_list</span>
+                    <span>Filter</span>
+                  </button>
+                  <button class="bg-gradient-to-r from-primary to-blue-600 text-white px-6 py-3 rounded-xl shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all font-medium flex items-center">
+                    <span class="material-icons mr-2">auto_awesome</span>
+                    Generate All CVs
+                  </button>
+                </div>
+              </div>
+
+              <!-- Collaborators Table -->
+              <div class="overflow-x-auto">
+                <table class="w-full">
+                  <thead>
+                    <tr class="border-b border-gray-200">
+                      <th class="py-4 px-4 text-left font-medium text-gray-500">Name</th>
+                      <th class="py-4 px-4 text-left font-medium text-gray-500">Match Score</th>
+                      <th class="py-4 px-4 text-left font-medium text-gray-500">Key Skills</th>
+                      <th class="py-4 px-4 text-left font-medium text-gray-500">Experience</th>
+                      <th class="py-4 px-4 text-left font-medium text-gray-500">Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody class="divide-y divide-gray-100">
+                    <tr class="group hover:bg-white/30 transition-colors">
+                      <td class="py-4 px-4">
+                        <div class="flex items-center space-x-3">
+                          <span class="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center font-medium">JD</span>
+                          <div>
+                            <span class="font-medium text-gray-700 block">Jane Doe</span>
+                            <span class="text-sm text-gray-500">Senior Engineer</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="py-4 px-4">
+                        <div class="flex items-center space-x-2">
+                          <div class="w-24 h-2.5 rounded-full bg-gray-200">
+                            <div class="h-2.5 rounded-full bg-green-500 transition-all" style="width: 95%"></div>
+                          </div>
+                          <span class="font-medium text-green-600 min-w-[48px] text-right">95%</span>
+                        </div>
+                      </td>
+                      <td class="py-4 px-4">
+                        <div class="flex flex-wrap gap-2">
+                          <span class="px-3 py-1.5 rounded-lg bg-blue-100 text-blue-600 text-xs font-medium">Bridge Design</span>
+                          <span class="px-3 py-1.5 rounded-lg bg-blue-100 text-blue-600 text-xs font-medium">Structural Analysis</span>
+                        </div>
+                      </td>
+                      <td class="py-4 px-4">
+                        <span class="text-gray-700 font-medium">15 years</span>
+                      </td>
+                      <td class="py-4 px-4">
+                        <div class="flex items-center space-x-3">
+                          <button onclick="openPreviewSidebar()" class="inline-flex items-center px-3 py-1.5 rounded-lg text-primary hover:bg-blue-50 transition-colors">
+                            <span class="material-icons mr-2 text-sm">visibility</span>
+                            <span class="font-medium">Preview</span>
+                          </button>
+                          <button class="inline-flex items-center px-3 py-1.5 rounded-lg text-primary hover:bg-blue-50 transition-colors">
+                            <span class="material-icons mr-2 text-sm">description</span>
+                            <span class="font-medium">Generate</span>
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr class="group hover:bg-white/30 transition-colors">
+                      <td class="py-4 px-4">
+                        <div class="flex items-center space-x-3">
+                          <span class="w-10 h-10 rounded-xl bg-purple-100 text-purple-600 flex items-center justify-center font-medium">JS</span>
+                          <div>
+                            <span class="font-medium text-gray-700 block">John Smith</span>
+                            <span class="text-sm text-gray-500">Project Manager</span>
+                          </div>
+                        </div>
+                      </td>
+                      <td class="py-4 px-4">
+                        <div class="flex items-center space-x-2">
+                          <div class="w-24 h-2.5 rounded-full bg-gray-200">
+                            <div class="h-2.5 rounded-full bg-yellow-500 transition-all" style="width: 85%"></div>
+                          </div>
+                          <span class="font-medium text-yellow-600 min-w-[48px] text-right">85%</span>
+                        </div>
+                      </td>
+                      <td class="py-4 px-4">
+                        <div class="flex flex-wrap gap-2">
+                          <span class="px-3 py-1.5 rounded-lg bg-purple-100 text-purple-600 text-xs font-medium">Infrastructure</span>
+                          <span class="px-3 py-1.5 rounded-lg bg-purple-100 text-purple-600 text-xs font-medium">Team Leadership</span>
+                        </div>
+                      </td>
+                      <td class="py-4 px-4">
+                        <span class="text-gray-700 font-medium">12 years</span>
+                      </td>
+                      <td class="py-4 px-4">
+                        <div class="flex items-center space-x-3">
+                          <button onclick="openPreviewSidebar()" class="inline-flex items-center px-3 py-1.5 rounded-lg text-primary hover:bg-blue-50 transition-colors">
+                            <span class="material-icons mr-2 text-sm">visibility</span>
+                            <span class="font-medium">Preview</span>
+                          </button>
+                          <button class="inline-flex items-center px-3 py-1.5 rounded-lg text-primary hover:bg-blue-50 transition-colors">
+                            <span class="material-icons mr-2 text-sm">description</span>
+                            <span class="font-medium">Generate</span>
+                          </button>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex items-center justify-between mt-8 pt-6 border-t border-gray-200">
+                <button type="button" class="px-6 py-3 rounded-xl border border-gray-200 text-gray-600 hover:bg-gray-50 transition-colors">
+                  Previous Step
+                </button>
+                <button type="button" class="px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-blue-600 text-white hover:shadow-lg transition-all">
+                  Next Step
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Preview Sidebar Modal -->
+          <div class="fixed inset-y-0 right-0 w-96 bg-white shadow-2xl transform transition-transform duration-300 translate-x-full" id="previewSidebar">
+            <!-- Modal Header -->
+            <div class="p-6 border-b border-gray-200 flex items-center justify-between bg-white/80 backdrop-blur-md sticky top-0 z-10">
+              <h3 class="text-xl font-semibold text-gray-800">Collaborator Preview</h3>
+              <button onclick="closePreviewSidebar()" class="p-2 hover:bg-gray-100 rounded-xl">
+                <span class="material-icons text-gray-600">close</span>
+              </button>
+            </div>
+
+            <!-- Tabs -->
+            <div class="border-b border-gray-200 bg-white/60 backdrop-blur-md sticky top-[88px] z-10">
+              <div class="flex">
+                <button onclick="showTab('report')" class="flex-1 px-6 py-4 text-sm font-medium text-primary border-b-2 border-primary" id="reportTab">
+                  Report
+                </button>
+                <button onclick="showTab('cv')" class="flex-1 px-6 py-4 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:text-gray-700" id="cvTab">
+                  Generated CV
+                </button>
+              </div>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="overflow-y-auto h-[calc(100vh-160px)]">
+              <!-- Report Tab -->
+              <div id="reportContent" class="p-6 space-y-6">
+                <!-- Match Score -->
+                <div class="bg-white/60 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                  <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm font-medium text-gray-600">Overall Match Score</span>
+                    <span class="text-lg font-semibold text-green-600">95%</span>
+                  </div>
+                  <div class="w-full h-2 rounded-full bg-gray-200">
+                    <div class="h-2 rounded-full bg-green-500" style="width: 95%"></div>
+                  </div>
+                </div>
+
+                <!-- Key Requirements Match -->
+                <div>
+                  <h4 class="text-sm font-medium text-gray-700 mb-4">Key Requirements Match</h4>
+                  <div class="space-y-4">
+                    <div class="bg-white/60 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                      <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm text-gray-600">Years of Experience</span>
+                        <span class="text-sm font-medium text-green-600">Exceeds</span>
+                      </div>
+                      <p class="text-sm text-gray-500">Required: 10 years | Actual: 15 years</p>
+                    </div>
+                    <div class="bg-white/60 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                      <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm text-gray-600">Technical Skills</span>
+                        <span class="text-sm font-medium text-green-600">Strong Match</span>
+                      </div>
+                      <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 rounded-lg bg-green-100 text-green-600 text-xs flex items-center">
+                          <span class="material-icons text-sm mr-1">check_circle</span>
+                          Bridge Design
+                        </span>
+                        <span class="px-2 py-1 rounded-lg bg-green-100 text-green-600 text-xs flex items-center">
+                          <span class="material-icons text-sm mr-1">check_circle</span>
+                          Structural Analysis
+                        </span>
+                      </div>
+                    </div>
+                    <div class="bg-white/60 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                      <div class="flex items-center justify-between mb-2">
+                        <span class="text-sm text-gray-600">Project Scale</span>
+                        <span class="text-sm font-medium text-yellow-600">Matches</span>
+                      </div>
+                      <p class="text-sm text-gray-500">Has experience with similar scale infrastructure projects</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Relevant Projects -->
+                <div>
+                  <h4 class="text-sm font-medium text-gray-700 mb-4">Relevant Projects</h4>
+                  <div class="space-y-3">
+                    <div class="bg-white/60 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                      <h5 class="font-medium text-gray-800 mb-1">Oman Highway Bridge Project</h5>
+                      <p class="text-sm text-gray-500 mb-2">Lead Structural Engineer (2020-2022)</p>
+                      <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 rounded-lg bg-blue-100 text-blue-600 text-xs">Bridge Design</span>
+                        <span class="px-2 py-1 rounded-lg bg-blue-100 text-blue-600 text-xs">Team Leadership</span>
+                      </div>
+                    </div>
+                    <div class="bg-white/60 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                      <h5 class="font-medium text-gray-800 mb-1">Dubai Metro Extension</h5>
+                      <p class="text-sm text-gray-500 mb-2">Senior Engineer (2018-2020)</p>
+                      <div class="flex flex-wrap gap-2">
+                        <span class="px-2 py-1 rounded-lg bg-blue-100 text-blue-600 text-xs">Infrastructure</span>
+                        <span class="px-2 py-1 rounded-lg bg-blue-100 text-blue-600 text-xs">Structural Analysis</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Generated CV Tab -->
+              <div id="cvContent" class="hidden p-6 space-y-6">
+                <div class="bg-white/60 backdrop-blur-md rounded-xl p-6 border border-white/20">
+                  <div class="flex items-center justify-between mb-6">
+                    <h4 class="font-medium text-gray-800">Customized CV Preview</h4>
+                    <button class="text-primary hover:text-blue-600 transition-colors flex items-center text-sm">
+                      <span class="material-icons text-sm mr-1">download</span>
+                      Download PDF
+                    </button>
+                  </div>
+                  <div class="space-y-4">
+                    <!-- CV Preview Placeholder -->
+                    <div class="h-20 bg-gray-100 rounded-lg animate-pulse"></div>
+                    <div class="h-32 bg-gray-100 rounded-lg animate-pulse"></div>
+                    <div class="h-24 bg-gray-100 rounded-lg animate-pulse"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function showTab(tabName) {
+  // Hide all content
+  document.getElementById('reportContent').classList.add('hidden');
+  document.getElementById('cvContent').classList.add('hidden');
+  
+  // Remove active state from all tabs
+  document.getElementById('reportTab').classList.remove('text-primary', 'border-primary');
+  document.getElementById('cvTab').classList.remove('text-primary', 'border-primary');
+  document.getElementById('reportTab').classList.add('text-gray-500', 'border-transparent');
+  document.getElementById('cvTab').classList.add('text-gray-500', 'border-transparent');
+  
+  // Show selected content and activate tab
+  document.getElementById(tabName + 'Content').classList.remove('hidden');
+  document.getElementById(tabName + 'Tab').classList.remove('text-gray-500', 'border-transparent');
+  document.getElementById(tabName + 'Tab').classList.add('text-primary', 'border-primary');
+}
+
+function openPreviewSidebar() {
+  const sidebar = document.getElementById('previewSidebar');
+  sidebar.classList.remove('translate-x-full');
+  showTab('report'); // Show report tab by default
+}
+
+function closePreviewSidebar() {
+  const sidebar = document.getElementById('previewSidebar');
+  sidebar.classList.add('translate-x-full');
+}
+
+// Initialize the sidebar in closed state
+document.addEventListener('DOMContentLoaded', function() {
+  const sidebar = document.getElementById('previewSidebar');
+  if (sidebar) {
+    sidebar.classList.add('translate-x-full');
+  }
+});
+</script> 
